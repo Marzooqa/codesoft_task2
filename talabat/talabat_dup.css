@@ -1,0 +1,246 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#nav{
+    display: flex;
+    height: 70px;
+    background-color: rgb(255, 90, 0);
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'DM Sans', sans-serif;
+}
+#unl{
+    display: flex;
+    align-items: center;
+}
+#unl button{
+    background-color: rgb(255, 90, 0);
+    color: white;
+    margin-left: 10px;
+    width: 60px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+#unl img{
+    width: 25px;
+}
+#unl li{
+    list-style-type: none;
+    display: inline;
+    padding-right:15px ;
+}
+#unl ul li a{
+    color: rgb(255, 255, 239);
+    text-decoration: none;
+}
+#se{
+    background-color: rgb(255, 245, 249);
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(51, 51, 51);
+}
+.pic1{
+    background-image: url(banner-img-1.png);
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 300px;
+    object-fit: contain;
+}
+.pic2{
+    background-image: url(banner-img-2.webp);
+    position: relative;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 300px;
+    object-fit: contain;
+}
+input{
+    height: 45px;
+    width: 400px;
+    font-family: 'DM Sans', sans-serif;
+}
+.mm p{
+    padding-bottom: 10px;
+    font-size: 45px;
+}
+.mm button{
+    margin-left: 10px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(255, 90, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.mm button:hover{
+    background-color: rgb(255, 148, 89);
+}
+.des{
+    margin-left: 400px; 
+    text-align: center; 
+    height: 300px;
+    width: 50%;
+}
+.tt{
+    font-size: 35px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.app{
+    margin-left: 80px;
+    margin-right: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    /* width: 80%; */
+}
+.app_grid{
+    width: 150px;
+}
+.cat{
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+}
+.cat_1{
+    display: flex;
+}
+.cat_2{
+    display: flex;
+}
+.grid_1{
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+.grid_1 img{
+    border-radius: 10px;
+    width: 200px;
+}
+.info_1{
+    padding-left: 10px;
+    text-align: center;
+    padding-right: 50px;
+}
+.info_1 h4{
+    font-size: xx-large;
+}
+.info_1 p{
+    padding-top: 10px;
+}
+.cat,.cat_1,.cat_2{
+    gap: 20px;
+}
+
+/* footer */
+#footer{
+    margin-top: 0px;
+    background-color: rgb(38,38,38);
+    font-family: 'DM Sans', sans-serif;
+    height: 400px;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+#top{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(59,59,59);
+}
+#top ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#top ul li{
+    list-style-type: none;
+}
+#top ul a{
+    color: rgb(153,153,153);
+    font-size: 12px;
+    text-decoration: none;
+}
+#top ul a:hover{
+    color: rgb(255,90,0);
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 230px;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(59,59,59);
+}
+#bottom p{
+    color: rgb(153,153,153);
+    padding-bottom: 7px;
+}
+
+#bottom ul li{
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+#bottom ul li a{
+    color: aliceblue;
+    font-size: 12px;
+    text-decoration: none;
+}
+#follow{
+    height: 90px;
+    width: 250px;
+    border-bottom: 1px solid rgb(59,59,59);
+}
+#follow p{
+    padding-bottom: 20px;
+}
+#follow img{
+    padding-right: 5px;
+}
+#sup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(153,153,153);
+    font-size: 12px;
+    height: 70px;
+}
+
+#phone{
+    margin-top: 60px;
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+#im{
+    float:left;
+}
+#de{
+    float:right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#im img{
+    width: 70%;
+}
+#app{
+    margin-right: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+#app img{
+    padding-right: 10px;
+}
